@@ -1,0 +1,102 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Container{
+  width: 100%;
+  display: flex;
+}
+
+.first{
+  position: relative;
+  left: -200px;
+  width: 60%
+}
+
+h2{
+  color: blue;
+  font-weight: 700;
+  font-size: 50px;
+  margin-right: 240px;
+}
+
+h4{
+  color: #888;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  position: relative;
+  top: -40px;
+}
+
+form{
+     width : 40%;
+     background-color: whitesmoke;
+     padding: 30px;
+     border-radius: 5px;
+}
+
+input{
+  border-radius: 7px;
+  padding: 10px;
+  border: 1px solid white;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+::placeholder{
+  text-transform: capitalize;
+}
+
+.Btn{
+  border-radius: 7px;
+  padding: 10px;
+  border: 1px solid white;
+  width: 100%;
+  background-color: rgb(64, 64, 206);
+  color: white; 
+}
+
+.Btn1{
+  background-color: rgb(76, 185, 76);
+  color: white;
+}
